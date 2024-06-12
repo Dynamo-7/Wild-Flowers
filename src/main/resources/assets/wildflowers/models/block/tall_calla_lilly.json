@@ -1,0 +1,8 @@
+{
+  "parent": "block/cross",
+  "textures": {
+    "cross": "wildflowers:blocks/tall_calla_lily_top",
+    "particle": "wildflowers:blocks/tall_calla_lily_top"
+  },
+  "render_type": "cutout"
+}

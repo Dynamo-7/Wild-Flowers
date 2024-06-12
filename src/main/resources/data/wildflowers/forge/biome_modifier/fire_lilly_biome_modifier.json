@@ -1,0 +1,9 @@
+{
+  "type": "forge:add_features",
+  "biomes": [
+    "sparse_jungle",
+    "jungle"
+  ],
+  "features": "wildflowers:fire_lilly",
+  "step": "vegetal_decoration"
+}

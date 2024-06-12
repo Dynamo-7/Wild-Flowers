@@ -1,0 +1,8 @@
+{
+  "parent": "block/cross",
+  "textures": {
+    "cross": "wildflowers:blocks/red_shoot_bottom",
+    "particle": "wildflowers:blocks/red_shoot_bottom"
+  },
+  "render_type": "cutout"
+}

@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "half=upper": {
+      "model": "wildflowers:block/red_shoot"
+    },
+    "half=lower": {
+      "model": "wildflowers:block/red_shoot_bottom"
+    }
+  }
+}

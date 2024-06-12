@@ -1,0 +1,6 @@
+{
+  "type": "forge:add_features",
+  "biomes": "bamboo_jungle",
+  "features": "wildflowers:red_shoot",
+  "step": "vegetal_decoration"
+}

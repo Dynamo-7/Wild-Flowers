@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "half=upper": {
+      "model": "wildflowers:block/natural_ancient_fern"
+    },
+    "half=lower": {
+      "model": "wildflowers:block/natural_ancient_fern_bottom"
+    }
+  }
+}

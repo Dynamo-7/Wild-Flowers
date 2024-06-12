@@ -1,0 +1,8 @@
+{
+  "parent": "block/cross",
+  "textures": {
+    "cross": "wildflowers:blocks/ancientfern_baby",
+    "particle": "wildflowers:blocks/ancientfern_baby"
+  },
+  "render_type": "cutout"
+}

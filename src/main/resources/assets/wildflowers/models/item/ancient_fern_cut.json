@@ -1,0 +1,7 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "wildflowers:items/ancientferngrownplaceholder"
+  },
+  "render_type": "translucent"
+}

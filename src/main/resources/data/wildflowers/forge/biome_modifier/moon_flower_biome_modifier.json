@@ -1,0 +1,9 @@
+{
+  "type": "forge:add_features",
+  "biomes": [
+    "sparse_jungle",
+    "jungle"
+  ],
+  "features": "wildflowers:moon_flower",
+  "step": "vegetal_decoration"
+}

@@ -1,0 +1,1407 @@
+{
+  "mod_elements": [
+    {
+      "name": "RedShootMobplayerCollidesWithPlant",
+      "type": "procedure",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "red_shoot_mobplayer_collides_with_plant",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/wildflowers/procedures/RedShootMobplayerCollidesWithPlantProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "RedShoot",
+      "type": "plant",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "red_shoot",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/wildflowers/block/RedShootBlock.java",
+          "src/main/resources/assets/wildflowers/models/block/red_shoot_bottom.json",
+          "src/main/resources/assets/wildflowers/models/item/red_shoot.json",
+          "src/main/resources/assets/wildflowers/blockstates/red_shoot.json",
+          "src/main/resources/data/wildflowers/forge/biome_modifier/red_shoot_biome_modifier.json",
+          "src/main/resources/assets/wildflowers/models/block/red_shoot.json",
+          "src/main/java/net/mcreator/wildflowers/world/features/plants/RedShootFeature.java"
+        ]
+      }
+    },
+    {
+      "name": "CallaLilly",
+      "type": "plant",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "calla_lilly",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/wildflowers/models/block/calla_lilly.json",
+          "src/main/resources/data/wildflowers/forge/biome_modifier/calla_lilly_biome_modifier.json",
+          "src/main/java/net/mcreator/wildflowers/block/CallaLillyBlock.java",
+          "src/main/resources/assets/wildflowers/models/item/calla_lilly.json",
+          "src/main/resources/assets/wildflowers/blockstates/calla_lilly.json",
+          "src/main/java/net/mcreator/wildflowers/world/features/plants/CallaLillyFeature.java"
+        ]
+      }
+    },
+    {
+      "name": "CallaLillyAdditionalGenerationCondition",
+      "type": "procedure",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "calla_lilly_additional_generation_condition",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/wildflowers/procedures/CallaLillyAdditionalGenerationConditionProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "TallCallaLilly",
+      "type": "plant",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tall_calla_lilly",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/wildflowers/world/features/plants/TallCallaLillyFeature.java",
+          "src/main/resources/assets/wildflowers/blockstates/tall_calla_lilly.json",
+          "src/main/resources/assets/wildflowers/models/block/tall_calla_lilly_bottom.json",
+          "src/main/java/net/mcreator/wildflowers/block/TallCallaLillyBlock.java",
+          "src/main/resources/assets/wildflowers/models/item/tall_calla_lilly.json",
+          "src/main/resources/assets/wildflowers/models/block/tall_calla_lilly.json",
+          "src/main/resources/data/wildflowers/forge/biome_modifier/tall_calla_lilly_biome_modifier.json"
+        ]
+      }
+    },
+    {
+      "name": "TallCallaLillyAdditionalParamaters",
+      "type": "procedure",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tall_calla_lilly_additional_paramaters",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/wildflowers/procedures/TallCallaLillyAdditionalParamatersProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "RainbowLilly",
+      "type": "plant",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rainbow_lilly",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/wildflowers/blockstates/rainbow_lilly.json",
+          "src/main/resources/assets/wildflowers/models/block/rainbow_lilly.json",
+          "src/main/resources/assets/wildflowers/models/item/rainbow_lilly.json",
+          "src/main/java/net/mcreator/wildflowers/world/features/plants/RainbowLillyFeature.java",
+          "src/main/java/net/mcreator/wildflowers/block/RainbowLillyBlock.java",
+          "src/main/resources/data/wildflowers/forge/biome_modifier/rainbow_lilly_biome_modifier.json"
+        ]
+      }
+    },
+    {
+      "name": "RainbowLillyPlantDestroyedByPlayer",
+      "type": "procedure",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rainbow_lilly_plant_destroyed_by_player",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/wildflowers/procedures/RainbowLillyPlantDestroyedByPlayerProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "MoonFlower",
+      "type": "plant",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "moon_flower",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/wildflowers/models/item/moon_flower.json",
+          "src/main/java/net/mcreator/wildflowers/block/MoonFlowerBlock.java",
+          "src/main/resources/assets/wildflowers/blockstates/moon_flower.json",
+          "src/main/java/net/mcreator/wildflowers/world/features/plants/MoonFlowerFeature.java",
+          "src/main/resources/data/wildflowers/forge/biome_modifier/moon_flower_biome_modifier.json",
+          "src/main/resources/assets/wildflowers/models/block/moon_flower.json",
+          "src/main/resources/assets/wildflowers/models/block/moon_flower_bottom.json"
+        ]
+      }
+    },
+    {
+      "name": "MoonFlowerPetalsPlayerFinishesUsingItem",
+      "type": "procedure",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "moon_flower_petals_player_finishes_using_item",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/wildflowers/procedures/MoonFlowerPetalsPlayerFinishesUsingItemProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "MoonFlowerPetals",
+      "type": "item",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "moon_flower_petals",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/wildflowers/item/MoonFlowerPetalsItem.java",
+          "src/main/resources/assets/wildflowers/models/item/moon_flower_petals.json"
+        ]
+      }
+    },
+    {
+      "name": "MoonPetalPoison",
+      "type": "recipe",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "moon_petal_poison",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/wildflowers/recipes/brewing/MoonPetalPoisonBrewingRecipe.java"
+        ]
+      }
+    },
+    {
+      "name": "SlimeLilie",
+      "type": "plant",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "slime_lilie",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/wildflowers/block/SlimeLilieBlock.java",
+          "src/main/resources/assets/wildflowers/blockstates/slime_lilie.json",
+          "src/main/resources/data/wildflowers/forge/biome_modifier/slime_lilie_biome_modifier.json",
+          "src/main/resources/assets/wildflowers/models/item/slime_lilie.json",
+          "src/main/java/net/mcreator/wildflowers/world/features/plants/SlimeLilieFeature.java",
+          "src/main/resources/assets/wildflowers/models/block/slime_lilie.json"
+        ]
+      }
+    },
+    {
+      "name": "SlimeLiliePlantDestroyedByPlayer",
+      "type": "procedure",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "slime_lilie_plant_destroyed_by_player",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/wildflowers/procedures/SlimeLiliePlantDestroyedByPlayerProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "FireLilly",
+      "type": "plant",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fire_lilly",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/wildflowers/block/FireLillyBlock.java",
+          "src/main/java/net/mcreator/wildflowers/world/features/plants/FireLillyFeature.java",
+          "src/main/resources/assets/wildflowers/models/block/fire_lilly.json",
+          "src/main/resources/assets/wildflowers/blockstates/fire_lilly.json",
+          "src/main/resources/assets/wildflowers/models/item/fire_lilly.json",
+          "src/main/resources/assets/wildflowers/models/block/fire_lilly_bottom.json",
+          "src/main/resources/data/wildflowers/forge/biome_modifier/fire_lilly_biome_modifier.json"
+        ]
+      }
+    },
+    {
+      "name": "FireLillyPedals",
+      "type": "item",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fire_lilly_pedals",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/wildflowers/models/item/fire_lilly_pedals.json",
+          "src/main/java/net/mcreator/wildflowers/item/FireLillyPedalsItem.java"
+        ]
+      }
+    },
+    {
+      "name": "FireLillyFirePotion",
+      "type": "recipe",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fire_lilly_fire_potion",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/wildflowers/recipes/brewing/FireLillyFirePotionBrewingRecipe.java"
+        ]
+      }
+    },
+    {
+      "name": "FireLillyPlantDestroyedByPlayer",
+      "type": "procedure",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fire_lilly_plant_destroyed_by_player",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/wildflowers/procedures/FireLillyPlantDestroyedByPlayerProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "MoonFlowerPlantDestroyedByPlayer",
+      "type": "procedure",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "moon_flower_plant_destroyed_by_player",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/wildflowers/procedures/MoonFlowerPlantDestroyedByPlayerProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "BlockTagAir",
+      "type": "tag",
+      "sortid": 32,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "block_tag_air",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/tags/blocks/air.json"
+        ]
+      }
+    },
+    {
+      "name": "AncientFernStage0",
+      "type": "block",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ancient_fern_stage_0",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/wildflowers/models/block/ancient_fern_stage_0.json",
+          "src/main/java/net/mcreator/wildflowers/block/AncientFernStage0Block.java",
+          "src/main/java/net/mcreator/wildflowers/block/entity/AncientFernStage0BlockEntity.java",
+          "src/main/resources/assets/wildflowers/blockstates/ancient_fern_stage_0.json",
+          "src/main/resources/assets/wildflowers/models/item/ancient_fern_stage_0.json"
+        ]
+      },
+      "path": "~/Ancient Fern Blocks/Fern Growth Stages"
+    },
+    {
+      "name": "AncientFernStage1",
+      "type": "block",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ancient_fern_stage_1",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/wildflowers/block/AncientFernStage1Block.java",
+          "src/main/resources/assets/wildflowers/models/item/ancient_fern_stage_1.json",
+          "src/main/java/net/mcreator/wildflowers/block/entity/AncientFernStage1BlockEntity.java",
+          "src/main/resources/assets/wildflowers/blockstates/ancient_fern_stage_1.json",
+          "src/main/resources/assets/wildflowers/models/block/ancient_fern_stage_1.json"
+        ]
+      },
+      "path": "~/Ancient Fern Blocks/Fern Growth Stages"
+    },
+    {
+      "name": "AncientFernStage2",
+      "type": "block",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ancient_fern_stage_2",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/wildflowers/block/AncientFernStage2Block.java",
+          "src/main/resources/assets/wildflowers/blockstates/ancient_fern_stage_2.json",
+          "src/main/resources/assets/wildflowers/models/item/ancient_fern_stage_2.json",
+          "src/main/java/net/mcreator/wildflowers/block/entity/AncientFernStage2BlockEntity.java",
+          "src/main/resources/assets/wildflowers/models/block/ancient_fern_stage_2.json"
+        ]
+      },
+      "path": "~/Ancient Fern Blocks/Fern Growth Stages"
+    },
+    {
+      "name": "AncientFernGrowthUpdateTick",
+      "type": "procedure",
+      "sortid": 27,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ancient_fern_growth_update_tick",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/wildflowers/procedures/AncientFernGrowthUpdateTickProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Ancient Fern Blocks/Fern Growth Stages"
+    },
+    {
+      "name": "AncientFernStage0BlockAdded",
+      "type": "procedure",
+      "sortid": 28,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ancient_fern_stage_0_block_added",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/wildflowers/procedures/AncientFernStage0BlockAddedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Ancient Fern Blocks/Fern Growth Stages"
+    },
+    {
+      "name": "Farmland",
+      "type": "tag",
+      "sortid": 36,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "farmland",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/wild/tags/blocks/farmland.json"
+        ]
+      },
+      "path": "~/Ancient Fern Blocks/Fern Growth Stages"
+    },
+    {
+      "name": "AncientFernSeeds",
+      "type": "item",
+      "sortid": 37,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ancient_fern_seeds",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/wildflowers/models/item/ancient_fern_seeds.json",
+          "src/main/java/net/mcreator/wildflowers/item/AncientFernSeedsItem.java"
+        ]
+      },
+      "path": "~/Ancient Fern Blocks/Fern Seeds"
+    },
+    {
+      "name": "AncientFernSeedsRightClickedOnBlock",
+      "type": "procedure",
+      "sortid": 38,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ancient_fern_seeds_right_clicked_on_block",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/wildflowers/procedures/AncientFernSeedsRightClickedOnBlockProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Ancient Fern Blocks/Fern Seeds"
+    },
+    {
+      "name": "NaturalAncientFern",
+      "type": "plant",
+      "sortid": 73,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "natural_ancient_fern",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/wildflowers/block/NaturalAncientFernBlock.java",
+          "src/main/resources/assets/wildflowers/blockstates/natural_ancient_fern.json",
+          "src/main/java/net/mcreator/wildflowers/world/features/plants/NaturalAncientFernFeature.java",
+          "src/main/resources/assets/wildflowers/models/item/natural_ancient_fern.json",
+          "src/main/resources/data/wildflowers/forge/biome_modifier/natural_ancient_fern_biome_modifier.json",
+          "src/main/resources/assets/wildflowers/models/block/natural_ancient_fern_bottom.json",
+          "src/main/resources/assets/wildflowers/models/block/natural_ancient_fern.json"
+        ]
+      }
+    },
+    {
+      "name": "NaturalAncientfernLoot",
+      "type": "loottable",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "natural_ancientfern_loot",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/wildflowers/loot_tables/blocks/natural_ancient_fern.json"
+        ]
+      }
+    },
+    {
+      "name": "NaturalAncientFernGeneration",
+      "type": "procedure",
+      "sortid": 74,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "natural_ancient_fern_generation",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/wildflowers/procedures/NaturalAncientFernGenerationProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "AncientFernStage3",
+      "type": "block",
+      "sortid": 75,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ancient_fern_stage_3",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/wildflowers/block/entity/AncientFernStage3BlockEntity.java",
+          "src/main/resources/assets/wildflowers/models/block/ancient_fern_stage_3.json",
+          "src/main/resources/assets/wildflowers/models/item/ancient_fern_stage_3.json",
+          "src/main/resources/assets/wildflowers/blockstates/ancient_fern_stage_3.json",
+          "src/main/java/net/mcreator/wildflowers/block/AncientFernStage3Block.java"
+        ]
+      },
+      "path": "~/Ancient Fern Blocks/Fern Growth Stages"
+    },
+    {
+      "name": "AncientFernGrowthValid",
+      "type": "procedure",
+      "sortid": 76,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ancient_fern_growth_valid",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/wildflowers/procedures/AncientFernGrowthValidProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Ancient Fern Blocks/Fern Growth Stages"
+    },
+    {
+      "name": "AncientFern",
+      "type": "block",
+      "sortid": 77,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ancient_fern",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/wildflowers/blockstates/ancient_fern.json",
+          "src/main/java/net/mcreator/wildflowers/block/AncientFernBlock.java",
+          "src/main/resources/assets/wildflowers/models/block/ancient_fern.json",
+          "src/main/resources/assets/wildflowers/models/item/ancient_fern.json"
+        ]
+      },
+      "path": "~/Ancient Fern Blocks/Fern Blocks"
+    },
+    {
+      "name": "AncientFernTop",
+      "type": "block",
+      "sortid": 78,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ancient_fern_top",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/wildflowers/models/item/ancient_fern_top.json",
+          "src/main/resources/assets/wildflowers/models/block/ancient_fern_top.json",
+          "src/main/java/net/mcreator/wildflowers/block/AncientFernTopBlock.java",
+          "src/main/resources/assets/wildflowers/blockstates/ancient_fern_top.json"
+        ]
+      },
+      "path": "~/Ancient Fern Blocks/Fern Blocks"
+    },
+    {
+      "name": "AncientFernTrimmed",
+      "type": "block",
+      "sortid": 79,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ancient_fern_trimmed",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/wildflowers/block/AncientFernTrimmedBlock.java",
+          "src/main/resources/assets/wildflowers/models/block/ancient_fern_trimmed.json",
+          "src/main/resources/assets/wildflowers/models/item/ancient_fern_trimmed.json",
+          "src/main/resources/assets/wildflowers/blockstates/ancient_fern_trimmed.json"
+        ]
+      },
+      "path": "~/Ancient Fern Blocks/Fern Blocks"
+    },
+    {
+      "name": "AncientFernTrimmedTop",
+      "type": "block",
+      "sortid": 80,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ancient_fern_trimmed_top",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/wildflowers/blockstates/ancient_fern_trimmed_top.json",
+          "src/main/resources/assets/wildflowers/models/item/ancient_fern_trimmed_top.json",
+          "src/main/java/net/mcreator/wildflowers/block/AncientFernTrimmedTopBlock.java",
+          "src/main/resources/assets/wildflowers/models/block/ancient_fern_trimmed_top.json"
+        ]
+      },
+      "path": "~/Ancient Fern Blocks/Fern Blocks"
+    },
+    {
+      "name": "AncientFernCut",
+      "type": "block",
+      "sortid": 81,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ancient_fern_cut",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/wildflowers/models/item/ancient_fern_cut.json",
+          "src/main/resources/assets/wildflowers/blockstates/ancient_fern_cut.json",
+          "src/main/java/net/mcreator/wildflowers/block/AncientFernCutBlock.java",
+          "src/main/resources/assets/wildflowers/models/block/ancient_fern_cut.json"
+        ]
+      },
+      "path": "~/Ancient Fern Blocks/Fern Blocks"
+    },
+    {
+      "name": "AncientFernValidPlacement",
+      "type": "procedure",
+      "sortid": 82,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ancient_fern_valid_placement",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/wildflowers/procedures/AncientFernValidPlacementProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Ancient Fern Blocks/Fern Blocks"
+    },
+    {
+      "name": "AncientFernCutValidPlacement",
+      "type": "procedure",
+      "sortid": 83,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ancient_fern_cut_valid_placement",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/wildflowers/procedures/AncientFernCutValidPlacementProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Ancient Fern Blocks/Fern Blocks"
+    },
+    {
+      "name": "AncientFernTopValidPlacement",
+      "type": "procedure",
+      "sortid": 84,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ancient_fern_top_valid_placement",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/wildflowers/procedures/AncientFernTopValidPlacementProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Ancient Fern Blocks/Fern Blocks"
+    },
+    {
+      "name": "AncientFernTrimmedTopValadPlacement",
+      "type": "procedure",
+      "sortid": 85,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ancient_fern_trimmed_top_valad_placement",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/wildflowers/procedures/AncientFernTrimmedTopValadPlacementProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Ancient Fern Blocks/Fern Blocks"
+    },
+    {
+      "name": "AncientFernBlockAdded",
+      "type": "procedure",
+      "sortid": 86,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ancient_fern_block_added",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/wildflowers/procedures/AncientFernBlockAddedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Ancient Fern Blocks/Fern Blocks"
+    },
+    {
+      "name": "AncientFernCutBlockAdded",
+      "type": "procedure",
+      "sortid": 87,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ancient_fern_cut_block_added",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/wildflowers/procedures/AncientFernCutBlockAddedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Ancient Fern Blocks/Fern Blocks"
+    },
+    {
+      "name": "AncientFernTopBlockDestroyed",
+      "type": "procedure",
+      "sortid": 88,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ancient_fern_top_block_destroyed",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/wildflowers/procedures/AncientFernTopBlockDestroyedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Ancient Fern Blocks/Fern Blocks"
+    },
+    {
+      "name": "AncientFernTrimmedTopDestroyed",
+      "type": "procedure",
+      "sortid": 89,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ancient_fern_trimmed_top_destroyed",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/wildflowers/procedures/AncientFernTrimmedTopDestroyedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Ancient Fern Blocks/Fern Blocks"
+    },
+    {
+      "name": "AncientFernTrimmedValidPlacement",
+      "type": "procedure",
+      "sortid": 90,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ancient_fern_trimmed_valid_placement",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/wildflowers/procedures/AncientFernTrimmedValidPlacementProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Ancient Fern Blocks/Fern Blocks"
+    },
+    {
+      "name": "AncientFernExploded",
+      "type": "procedure",
+      "sortid": 91,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ancient_fern_exploded",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/wildflowers/procedures/AncientFernExplodedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Ancient Fern Blocks/Fern Blocks"
+    },
+    {
+      "name": "TrimmingAncientFern",
+      "type": "procedure",
+      "sortid": 92,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "trimming_ancient_fern",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/wildflowers/procedures/TrimmingAncientFernProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Ancient Fern Blocks/Fern Trimming"
+    },
+    {
+      "name": "TrimmingAncientTrimmedFern",
+      "type": "procedure",
+      "sortid": 93,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "trimming_ancient_trimmed_fern",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/wildflowers/procedures/TrimmingAncientTrimmedFernProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Ancient Fern Blocks/Fern Trimming"
+    },
+    {
+      "name": "AncientFernCutDown",
+      "type": "procedure",
+      "sortid": 94,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ancient_fern_cut_down",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/wildflowers/procedures/AncientFernCutDownProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Ancient Fern Blocks/Fern Cutting"
+    },
+    {
+      "name": "AncientFernTrimmedCutDown",
+      "type": "procedure",
+      "sortid": 95,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ancient_fern_trimmed_cut_down",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/wildflowers/procedures/AncientFernTrimmedCutDownProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Ancient Fern Blocks/Fern Cutting"
+    },
+    {
+      "name": "AncientFernCutCutDown",
+      "type": "procedure",
+      "sortid": 96,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ancient_fern_cut_cut_down",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/wildflowers/procedures/AncientFernCutCutDownProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Ancient Fern Blocks/Fern Cutting"
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "block.wildflowers.slime_lilie": "Slime Lilie",
+      "block.wildflowers.ancient_fern_trimmed": "Trimmed Ancient Fern",
+      "block.wildflowers.moon_flower": "Moon Flower",
+      "block.wildflowers.ancient_fern_stage_1": "Ancient Fern Stage 0",
+      "block.wildflowers.ancient_fern_stage_2": "Ancient Fern Stage 0",
+      "block.wildflowers.ancient_fern_stage_3": "Ancient Fern Stage 3 ",
+      "block.wildflowers.ancient_fern_cut": "Cut Ancient Fern",
+      "block.wildflowers.calla_lilly": "Calla Lilly",
+      "block.wildflowers.tall_calla_lilly": "Tall Calla Lilly",
+      "block.wildflowers.ancient_fern_stage_0": "Ancient Fern Stage 0",
+      "block.wildflowers.ancient_fern_trimmed_top": "Ancient Fern",
+      "block.wildflowers.fire_lilly": "Fire Lilly",
+      "block.wildflowers.ancient_fern_top": "Ancient Fern",
+      "block.wildflowers.rainbow_lilly": "Rainbow Lilly",
+      "item.wildflowers.ancient_fern_seeds": "Ancient Fern Seeds",
+      "block.wildflowers.ancient_fern": "Ancient Fern",
+      "block.wildflowers.natural_ancient_fern": "Natural Ancient Fern",
+      "item.wildflowers.fire_lilly_pedals": "Fire Lilly Pedals",
+      "item.wildflowers.moon_flower_petals": "Moon Flower Petals",
+      "block.wildflowers.red_shoot": "Red Shoot"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": [
+      {
+        "name": "Ancient Fern Blocks",
+        "children": [
+          {
+            "name": "Fern Seeds",
+            "children": []
+          },
+          {
+            "name": "Fern Growth Stages",
+            "children": []
+          },
+          {
+            "name": "Fern Blocks",
+            "children": []
+          },
+          {
+            "name": "Fern Trimming",
+            "children": []
+          },
+          {
+            "name": "Fern Cutting",
+            "children": []
+          }
+        ]
+      }
+    ]
+  },
+  "workspaceSettings": {
+    "modid": "wildflowers",
+    "modName": "WildFlowers",
+    "version": "0.6.1",
+    "description": "Flowers and plants for your enjoyment.",
+    "author": "Dynamo",
+    "websiteURL": "https://modrinth.com/mod/wild-flowers",
+    "license": "MIT License",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "modPicture": "modlogo",
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.19.2",
+    "credits": "N/A",
+    "modElementsPackage": "net.mcreator.wildflowers",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202300224119
+}

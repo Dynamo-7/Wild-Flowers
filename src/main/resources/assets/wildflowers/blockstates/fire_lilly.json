@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "half=upper": {
+      "model": "wildflowers:block/fire_lilly"
+    },
+    "half=lower": {
+      "model": "wildflowers:block/fire_lilly_bottom"
+    }
+  }
+}

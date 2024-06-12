@@ -1,0 +1,6 @@
+{
+  "type": "forge:add_features",
+  "biomes": "jungle",
+  "features": "wildflowers:rainbow_lilly",
+  "step": "vegetal_decoration"
+}

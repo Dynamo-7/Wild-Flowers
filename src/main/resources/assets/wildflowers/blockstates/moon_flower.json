@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "half=upper": {
+      "model": "wildflowers:block/moon_flower"
+    },
+    "half=lower": {
+      "model": "wildflowers:block/moon_flower_bottom"
+    }
+  }
+}

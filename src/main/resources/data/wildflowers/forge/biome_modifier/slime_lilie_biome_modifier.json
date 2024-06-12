@@ -1,0 +1,9 @@
+{
+  "type": "forge:add_features",
+  "biomes": [
+    "swamp",
+    "mangrove_swamp"
+  ],
+  "features": "wildflowers:slime_lilie",
+  "step": "vegetal_decoration"
+}
