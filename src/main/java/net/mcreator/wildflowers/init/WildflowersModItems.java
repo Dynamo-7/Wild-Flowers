@@ -14,6 +14,7 @@ import net.minecraft.world.item.DoubleHighBlockItem;
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.BlockItem;
 
+import net.mcreator.wildflowers.item.UnfiredPotItem;
 import net.mcreator.wildflowers.item.MoonFlowerPetalsItem;
 import net.mcreator.wildflowers.item.FireLillyPedalsItem;
 import net.mcreator.wildflowers.item.AncientFernSeedsItem;
@@ -41,6 +42,8 @@ public class WildflowersModItems {
 	public static final RegistryObject<Item> ANCIENT_FERN_TRIMMED = block(WildflowersModBlocks.ANCIENT_FERN_TRIMMED, CreativeModeTab.TAB_DECORATIONS);
 	public static final RegistryObject<Item> ANCIENT_FERN_TRIMMED_TOP = block(WildflowersModBlocks.ANCIENT_FERN_TRIMMED_TOP, null);
 	public static final RegistryObject<Item> ANCIENT_FERN_CUT = block(WildflowersModBlocks.ANCIENT_FERN_CUT, CreativeModeTab.TAB_DECORATIONS);
+	public static final RegistryObject<Item> FLOWER_POT = block(WildflowersModBlocks.FLOWER_POT, CreativeModeTab.TAB_DECORATIONS);
+	public static final RegistryObject<Item> UNFIRED_POT = REGISTRY.register("unfired_pot", () -> new UnfiredPotItem());
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));

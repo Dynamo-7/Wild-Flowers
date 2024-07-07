@@ -1,0 +1,11 @@
+{
+  "parent": "wildflowers:custom/flowerpot",
+  "textures": {
+    "all": "wildflowers:blocks/planter_side",
+    "particle": "wildflowers:blocks/planter_side",
+    "0": "wildflowers:blocks/planter_bottom",
+    "1": "wildflowers:blocks/planter_side",
+    "2": "wildflowers:blocks/dirt_moist"
+  },
+  "render_type": "cutout_mipped"
+}

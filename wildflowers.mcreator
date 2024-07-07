@@ -1325,6 +1325,75 @@
         ]
       },
       "path": "~/Ancient Fern Blocks/Fern Cutting"
+    },
+    {
+      "name": "FlowerPot",
+      "type": "block",
+      "sortid": 97,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "flower_pot",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/wildflowers/blockstates/flower_pot.json",
+          "src/main/resources/assets/wildflowers/models/block/flower_pot.json",
+          "src/main/java/net/mcreator/wildflowers/block/FlowerPotBlock.java",
+          "src/main/resources/assets/wildflowers/models/item/flower_pot.json"
+        ]
+      }
+    },
+    {
+      "name": "FlowerPotTag",
+      "type": "tag",
+      "sortid": 98,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "flower_pot_tag",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/wildflowers/tags/blocks/flower_pot.json"
+        ]
+      }
+    },
+    {
+      "name": "UnfiredPot",
+      "type": "item",
+      "sortid": 99,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "unfired_pot",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/wildflowers/models/item/unfired_pot.json",
+          "src/main/java/net/mcreator/wildflowers/item/UnfiredPotItem.java"
+        ]
+      }
+    },
+    {
+      "name": "FlowerPotRecipe",
+      "type": "recipe",
+      "sortid": 100,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "flower_pot_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/wildflowers/recipes/flower_pot_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "UnfiredPotRecipe",
+      "type": "recipe",
+      "sortid": 101,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "unfired_pot_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/wildflowers/recipes/unfired_pot_recipe.json"
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -1333,6 +1402,7 @@
     "en_us": {
       "block.wildflowers.slime_lilie": "Slime Lilie",
       "block.wildflowers.ancient_fern_trimmed": "Trimmed Ancient Fern",
+      "item.wildflowers.unfired_pot": "Unfired Pot",
       "block.wildflowers.moon_flower": "Moon Flower",
       "block.wildflowers.ancient_fern_stage_1": "Ancient Fern Stage 0",
       "block.wildflowers.ancient_fern_stage_2": "Ancient Fern Stage 0",
@@ -1347,6 +1417,7 @@
       "block.wildflowers.rainbow_lilly": "Rainbow Lilly",
       "item.wildflowers.ancient_fern_seeds": "Ancient Fern Seeds",
       "block.wildflowers.ancient_fern": "Ancient Fern",
+      "block.wildflowers.flower_pot": "Large Flower Pot",
       "block.wildflowers.natural_ancient_fern": "Natural Ancient Fern",
       "item.wildflowers.fire_lilly_pedals": "Fire Lilly Pedals",
       "item.wildflowers.moon_flower_petals": "Moon Flower Petals",
@@ -1386,7 +1457,7 @@
   "workspaceSettings": {
     "modid": "wildflowers",
     "modName": "WildFlowers",
-    "version": "0.2",
+    "version": "0.2.1",
     "description": "Flowers and plants for your enjoyment.",
     "author": "Dynamo",
     "websiteURL": "https://modrinth.com/mod/wild-flowers",

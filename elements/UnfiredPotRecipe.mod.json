@@ -1,0 +1,48 @@
+{
+  "_fv": 43,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "Items.CLAY_BALL"
+      },
+      {
+        "value": "Blocks.STONE"
+      },
+      {
+        "value": "Items.CLAY_BALL"
+      },
+      {
+        "value": "Items.CLAY_BALL"
+      },
+      {
+        "value": "Blocks.STONE"
+      },
+      {
+        "value": "Items.CLAY_BALL"
+      },
+      {
+        "value": "Items.CLAY_BALL"
+      },
+      {
+        "value": "Items.CLAY_BALL"
+      },
+      {
+        "value": "Items.CLAY_BALL"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:UnfiredPot"
+    },
+    "name": "unfired_pot_recipe",
+    "namespace": "mod"
+  }
+}

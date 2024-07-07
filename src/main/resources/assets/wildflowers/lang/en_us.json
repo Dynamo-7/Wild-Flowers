@@ -1,6 +1,7 @@
 {
   "block.wildflowers.slime_lilie": "Slime Lilie",
   "block.wildflowers.ancient_fern_trimmed": "Trimmed Ancient Fern",
+  "item.wildflowers.unfired_pot": "Unfired Pot",
   "block.wildflowers.moon_flower": "Moon Flower",
   "block.wildflowers.ancient_fern_stage_1": "Ancient Fern Stage 0",
   "block.wildflowers.ancient_fern_stage_2": "Ancient Fern Stage 0",
@@ -15,6 +16,7 @@
   "block.wildflowers.rainbow_lilly": "Rainbow Lilly",
   "item.wildflowers.ancient_fern_seeds": "Ancient Fern Seeds",
   "block.wildflowers.ancient_fern": "Ancient Fern",
+  "block.wildflowers.flower_pot": "Large Flower Pot",
   "block.wildflowers.natural_ancient_fern": "Natural Ancient Fern",
   "item.wildflowers.fire_lilly_pedals": "Fire Lilly Pedals",
   "item.wildflowers.moon_flower_petals": "Moon Flower Petals",

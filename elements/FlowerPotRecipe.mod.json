@@ -1,0 +1,22 @@
+{
+  "_fv": 43,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Blasting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 1.7000000000000002,
+    "cookingTime": 500,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "blastingInputStack": {
+      "value": "CUSTOM:UnfiredPot"
+    },
+    "blastingReturnStack": {
+      "value": "CUSTOM:FlowerPot"
+    },
+    "name": "flower_pot_recipe",
+    "namespace": "mod"
+  }
+}

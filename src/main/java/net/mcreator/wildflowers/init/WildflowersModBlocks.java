@@ -20,6 +20,7 @@ import net.mcreator.wildflowers.block.RedShootBlock;
 import net.mcreator.wildflowers.block.RainbowLillyBlock;
 import net.mcreator.wildflowers.block.NaturalAncientFernBlock;
 import net.mcreator.wildflowers.block.MoonFlowerBlock;
+import net.mcreator.wildflowers.block.FlowerPotBlock;
 import net.mcreator.wildflowers.block.FireLillyBlock;
 import net.mcreator.wildflowers.block.CallaLillyBlock;
 import net.mcreator.wildflowers.block.AncientFernTrimmedTopBlock;
@@ -52,6 +53,7 @@ public class WildflowersModBlocks {
 	public static final RegistryObject<Block> ANCIENT_FERN_TRIMMED = REGISTRY.register("ancient_fern_trimmed", () -> new AncientFernTrimmedBlock());
 	public static final RegistryObject<Block> ANCIENT_FERN_TRIMMED_TOP = REGISTRY.register("ancient_fern_trimmed_top", () -> new AncientFernTrimmedTopBlock());
 	public static final RegistryObject<Block> ANCIENT_FERN_CUT = REGISTRY.register("ancient_fern_cut", () -> new AncientFernCutBlock());
+	public static final RegistryObject<Block> FLOWER_POT = REGISTRY.register("flower_pot", () -> new FlowerPotBlock());
 
 	@Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD, value = Dist.CLIENT)
 	public static class ClientSideHandler {
