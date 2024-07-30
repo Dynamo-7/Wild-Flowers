@@ -1394,6 +1394,38 @@
           "src/main/resources/data/wildflowers/recipes/unfired_pot_recipe.json"
         ]
       }
+    },
+    {
+      "name": "RedShootAdditionalGenerationCondition",
+      "type": "procedure",
+      "sortid": 102,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "red_shoot_additional_generation_condition",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/wildflowers/procedures/RedShootAdditionalGenerationConditionProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -1457,7 +1489,7 @@
   "workspaceSettings": {
     "modid": "wildflowers",
     "modName": "WildFlowers",
-    "version": "0.2.1",
+    "version": "0.2.2",
     "description": "Flowers and plants for your enjoyment.",
     "author": "Dynamo",
     "websiteURL": "https://modrinth.com/mod/wild-flowers",

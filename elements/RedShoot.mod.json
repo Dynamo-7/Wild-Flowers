@@ -44,7 +44,7 @@
     "isSolid": false,
     "isCustomSoundType": false,
     "soundOnStep": {
-      "value": "PLANT"
+      "value": "BAMBOO_SAPLING"
     },
     "breakSound": {
       "value": ""
@@ -82,16 +82,15 @@
     "speedFactor": 1.0,
     "canBePlacedOn": [],
     "isBonemealable": false,
-    "frequencyOnChunks": 40,
+    "frequencyOnChunks": 28,
     "spawnWorldTypes": [
       "Surface"
     ],
-    "restrictionBiomes": [
-      {
-        "value": "bamboo_jungle"
-      }
-    ],
-    "patchSize": 1,
+    "restrictionBiomes": [],
+    "generateCondition": {
+      "name": "RedShootAdditionalGenerationCondition"
+    },
+    "patchSize": 9,
     "generateAtAnyHeight": false,
     "onEntityCollides": {
       "name": "RedShootMobplayerCollidesWithPlant"

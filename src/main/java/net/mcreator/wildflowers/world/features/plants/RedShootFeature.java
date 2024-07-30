@@ -20,6 +20,7 @@ import net.minecraft.data.worldgen.placement.PlacementUtils;
 import net.minecraft.data.worldgen.features.FeatureUtils;
 import net.minecraft.core.Holder;
 
+import net.mcreator.wildflowers.procedures.RedShootAdditionalGenerationConditionProcedure;
 import net.mcreator.wildflowers.init.WildflowersModBlocks;
 
 import java.util.Set;
@@ -33,8 +34,8 @@ public class RedShootFeature extends RandomPatchFeature {
 	public static Feature<?> feature() {
 		FEATURE = new RedShootFeature();
 		CONFIGURED_FEATURE = FeatureUtils.register("wildflowers:red_shoot", FEATURE,
-				FeatureUtils.simplePatchConfiguration(Feature.SIMPLE_BLOCK, new SimpleBlockConfiguration(BlockStateProvider.simple(WildflowersModBlocks.RED_SHOOT.get())), List.of(), 1));
-		PLACED_FEATURE = PlacementUtils.register("wildflowers:red_shoot", CONFIGURED_FEATURE, List.of(CountPlacement.of(40), RarityFilter.onAverageOnceEvery(32), InSquarePlacement.spread(), PlacementUtils.HEIGHTMAP, BiomeFilter.biome()));
+				FeatureUtils.simplePatchConfiguration(Feature.SIMPLE_BLOCK, new SimpleBlockConfiguration(BlockStateProvider.simple(WildflowersModBlocks.RED_SHOOT.get())), List.of(), 9));
+		PLACED_FEATURE = PlacementUtils.register("wildflowers:red_shoot", CONFIGURED_FEATURE, List.of(CountPlacement.of(28), RarityFilter.onAverageOnceEvery(32), InSquarePlacement.spread(), PlacementUtils.HEIGHTMAP, BiomeFilter.biome()));
 		return FEATURE;
 	}
 
@@ -47,6 +48,11 @@ public class RedShootFeature extends RandomPatchFeature {
 	public boolean place(FeaturePlaceContext<RandomPatchConfiguration> context) {
 		WorldGenLevel world = context.level();
 		if (!generate_dimensions.contains(world.getLevel().dimension()))
+			return false;
+		int x = context.origin().getX();
+		int y = context.origin().getY();
+		int z = context.origin().getZ();
+		if (!RedShootAdditionalGenerationConditionProcedure.execute(world, x, y, z))
 			return false;
 		return super.place(context);
 	}

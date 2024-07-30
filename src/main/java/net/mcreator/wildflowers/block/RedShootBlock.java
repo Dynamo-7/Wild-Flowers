@@ -28,7 +28,7 @@ import java.util.Collections;
 
 public class RedShootBlock extends DoublePlantBlock {
 	public RedShootBlock() {
-		super(BlockBehaviour.Properties.of(Material.PLANT).sound(SoundType.GRASS).instabreak().noCollission());
+		super(BlockBehaviour.Properties.of(Material.PLANT).sound(SoundType.BAMBOO_SAPLING).instabreak().noCollission());
 	}
 
 	@Override
