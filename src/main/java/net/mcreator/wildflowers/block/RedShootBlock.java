@@ -38,7 +38,7 @@ public class RedShootBlock extends DoublePlantBlock {
 
 	@Override
 	public BlockPathTypes getBlockPathType(BlockState state, BlockGetter world, BlockPos pos, Mob entity) {
-		return BlockPathTypes.DAMAGE_OTHER;
+		return BlockPathTypes.DANGER_OTHER;
 	}
 
 	@Override
