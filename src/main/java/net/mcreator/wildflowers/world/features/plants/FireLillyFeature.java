@@ -33,8 +33,8 @@ public class FireLillyFeature extends RandomPatchFeature {
 	public static Feature<?> feature() {
 		FEATURE = new FireLillyFeature();
 		CONFIGURED_FEATURE = FeatureUtils.register("wildflowers:fire_lilly", FEATURE,
-				FeatureUtils.simplePatchConfiguration(Feature.SIMPLE_BLOCK, new SimpleBlockConfiguration(BlockStateProvider.simple(WildflowersModBlocks.FIRE_LILLY.get())), List.of(), 200));
-		PLACED_FEATURE = PlacementUtils.register("wildflowers:fire_lilly", CONFIGURED_FEATURE, List.of(CountPlacement.of(2), RarityFilter.onAverageOnceEvery(32), InSquarePlacement.spread(), PlacementUtils.HEIGHTMAP, BiomeFilter.biome()));
+				FeatureUtils.simplePatchConfiguration(Feature.SIMPLE_BLOCK, new SimpleBlockConfiguration(BlockStateProvider.simple(WildflowersModBlocks.FIRE_LILLY.get())), List.of(), 140));
+		PLACED_FEATURE = PlacementUtils.register("wildflowers:fire_lilly", CONFIGURED_FEATURE, List.of(CountPlacement.of(1), RarityFilter.onAverageOnceEvery(32), InSquarePlacement.spread(), PlacementUtils.HEIGHTMAP, BiomeFilter.biome()));
 		return FEATURE;
 	}
 

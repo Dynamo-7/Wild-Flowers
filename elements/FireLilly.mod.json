@@ -80,7 +80,7 @@
     "speedFactor": 1.0,
     "canBePlacedOn": [],
     "isBonemealable": false,
-    "frequencyOnChunks": 2,
+    "frequencyOnChunks": 1,
     "spawnWorldTypes": [
       "Surface"
     ],
@@ -92,7 +92,7 @@
         "value": "mutated_jungle_edge"
       }
     ],
-    "patchSize": 200,
+    "patchSize": 140,
     "generateAtAnyHeight": false,
     "onDestroyedByPlayer": {
       "name": "FireLillyPlantDestroyedByPlayer"
